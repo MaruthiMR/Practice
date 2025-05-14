@@ -55,7 +55,8 @@ Terraform Installation Guide(https://learn.hashicorp.com/tutorials/terraform/ins
    ```bash
    terraform init
 
- b. validate the terraform script to check any miss configuration :
+ b. Validate the terraform script to check any miss configuration:
+
    ```bash
    terraform validate
 
@@ -65,12 +66,12 @@ Terraform Installation Guide(https://learn.hashicorp.com/tutorials/terraform/ins
    ```bash
    terraform apply 
 
-5. When prompted, type yes to approve the creation of the resources.
+5. When prompted, type yes to approve the creation of the resources:
 
 Terraform will create:
 
- . An EC2 instance with a public IP address.
+ 1. An EC2 instance with a public IP address:
 
-.  A security group that allows inbound HTTP (port 80) and SSH (port 22) traffic.
+ 1. A security group that allows inbound HTTP (port 80) and SSH (port 22) traffic.
 
 
