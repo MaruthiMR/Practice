@@ -68,9 +68,9 @@ Terraform Installation Guide(https://learn.hashicorp.com/tutorials/terraform/ins
 
    Terraform will create:
 
-  a) An EC2 instance with a public IP address.
+    a) An EC2 instance with a public IP address.
 
-  b) A security group that allows inbound HTTP (port 80) and SSH (port 22) traffic.
+    b) A security group that allows inbound HTTP (port 80) and SSH (port 22) traffic.
 
 8. Access the Web Server
   Once the EC2 instance is created, you can access the "Hello, World!" page hosted on the web server:
@@ -79,5 +79,4 @@ Terraform Installation Guide(https://learn.hashicorp.com/tutorials/terraform/ins
       ```bash
    terraform output instance_public_ip
 
-
-
+9. Open a web browser and visit the IP address. You should see the "Hello Elsevier" page.
