@@ -81,5 +81,5 @@ Terraform Installation Guide(https://learn.hashicorp.com/tutorials/terraform/ins
 
 9. Open a web browser and visit the IP address. You should see the "Hello Elsevier" page.
 
-![Web Server Screenshot](2.png)
+![Web Server Screenshot](3.png)
 
