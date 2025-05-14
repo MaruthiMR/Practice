@@ -49,8 +49,7 @@ Terraform Installation Guide(https://learn.hashicorp.com/tutorials/terraform/ins
    ```bash
    terraform version
 
-4. Deploy Infrastructure:
-   Initialize Terraform to download the necessary provider plugins:
+4. Initialize Terraform to download the necessary provider plugins:
 
    ```bash
    terraform init
@@ -60,11 +59,15 @@ Terraform Installation Guide(https://learn.hashicorp.com/tutorials/terraform/ins
    ```bash
    terraform validate
 
-
 6. Apply Terraform configuration to create the EC2 instance and other resources:
 
    ```bash
    terraform apply
 
+7. When prompted, type yes to approve the creation of the resources. Terraform will create:
+
+  a)An EC2 instance with a public IP address.
+
+  b)A security group that allows inbound HTTP (port 80) and SSH (port 22) traffic.
 
 
