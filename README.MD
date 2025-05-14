@@ -94,3 +94,14 @@ Choose EC2 to see the metrics like CPU utilization and Memory utilization.
 
 ![Web Server Screenshot](3.png)
 
+12. Cleanup
+
+To avoid unnecessary charges, make sure to destroy the Terraform-managed resources after you're done.
+
+Run the following command to destroy the infrastructure:
+
+     ```bash
+   terraform destory
+
+![Web Server Screenshot](3.png)
+
