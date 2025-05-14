@@ -55,7 +55,7 @@ Terraform Installation Guide(https://learn.hashicorp.com/tutorials/terraform/ins
    ```bash
    terraform init
 
-5.Validate the terraform script to check any miss configuration:
+5. Validate the terraform script to check any miss configuration:
 
    ```bash
    terraform validate
