@@ -68,13 +68,3 @@ Terraform Installation Guide(https://learn.hashicorp.com/tutorials/terraform/ins
 
 
 
-
-5. When prompted, type yes to approve the creation of the resources:
-
-Terraform will create:
-
- 1. An EC2 instance with a public IP address:
-
- 1. A security group that allows inbound HTTP (port 80) and SSH (port 22) traffic.
-
-
