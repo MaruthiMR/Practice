@@ -55,12 +55,12 @@ Terraform Installation Guide(https://learn.hashicorp.com/tutorials/terraform/ins
    ```bash
    terraform init
 
- b. validate the terraform script to check any miss configuration 
+ b. validate the terraform script to check any miss configuration :
    ```bash
    terraform validate
 
- c.
-  Apply Terraform configuration to create the EC2 instance and other resources:
+c. Apply Terraform configuration to create the EC2 instance and other resources:
+
    ```bash
    terraform apply 
 
