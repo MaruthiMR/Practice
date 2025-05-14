@@ -80,3 +80,6 @@ Terraform Installation Guide(https://learn.hashicorp.com/tutorials/terraform/ins
    terraform output instance_public_ip
 
 9. Open a web browser and visit the IP address. You should see the "Hello Elsevier" page.
+
+![Web Server Screenshot](./screenshots/web-server-screenshot.png)
+
