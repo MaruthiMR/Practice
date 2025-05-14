@@ -103,5 +103,5 @@ Run the following command to destroy the infrastructure:
 ```bash
   terraform destory
 
-[Web Server Screenshot](3.png)
+![Web Server Screenshot](3.png)
 
