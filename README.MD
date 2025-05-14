@@ -59,9 +59,18 @@ Terraform Installation Guide(https://learn.hashicorp.com/tutorials/terraform/ins
    ```bash
    terraform validate
 
-c. Apply Terraform configuration to create the EC2 instance and other resources:
+
+ c. Apply Terraform configuration to create the EC2 instance and other resources:
 
    ```bash
    terraform apply 
+
+5. When prompted, type yes to approve the creation of the resources.
+
+Terraform will create:
+
+ . An EC2 instance with a public IP address.
+
+.  A security group that allows inbound HTTP (port 80) and SSH (port 22) traffic.
 
 
