@@ -49,19 +49,19 @@ Terraform Installation Guide(https://learn.hashicorp.com/tutorials/terraform/ins
    ```bash
    terraform version
 
-4. Deploy Infrastructure
+4. Deploy Infrastructure:
    Initialize Terraform to download the necessary provider plugins:
 
    ```bash
    terraform init
 
-   Validate the terraform script to check any miss configuration:
+5.Validate the terraform script to check any miss configuration:
 
    ```bash
    terraform validate
 
 
-   Apply Terraform configuration to create the EC2 instance and other resources:
+6. Apply Terraform configuration to create the EC2 instance and other resources:
 
    ```bash
    terraform apply
