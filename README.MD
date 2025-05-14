@@ -100,9 +100,13 @@ To avoid unnecessary charges, make sure to destroy the Terraform-managed resourc
 
 Run the following command to destroy the infrastructure:
 
-```bash
-terraform destory
-#.
+    ```bash
+ terraform destory
+
+
+
 
 ![Web Server Screenshot](3.png)
+
+
 
