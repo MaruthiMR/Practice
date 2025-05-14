@@ -40,3 +40,18 @@ Before proceeding with the setup, make sure you have the following:
    git clone https://github.com/yourusername/terraform-ec2-web-server.git
    cd terraform-ec2-web-server
 
+2. Install Terraform if you haven't already. You can follow the instructions for your OS on the official Terraform website:
+
+Terraform Installation Guide(https://learn.hashicorp.com/tutorials/terraform/install-cli).
+
+3. Once installed, confirm by checking the Terraform version:
+
+   ```bash
+   terraform version
+
+4. Deploy Infrastructure
+ a) Initialize Terraform to download the necessary provider plugins:
+   '''bash
+   terraform init
+
+
