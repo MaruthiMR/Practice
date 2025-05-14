@@ -64,7 +64,10 @@ Terraform Installation Guide(https://learn.hashicorp.com/tutorials/terraform/ins
  c. Apply Terraform configuration to create the EC2 instance and other resources:
 
    ```bash
-   terraform apply 
+   terraform apply
+
+
+
 
 5. When prompted, type yes to approve the creation of the resources:
 
