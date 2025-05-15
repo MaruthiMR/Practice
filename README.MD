@@ -121,7 +121,13 @@ Run the following command to destroy the infrastructure:
 1. **Navigate to the project directory:**
 
    ```bash
-   cd your-terraform-project
+   cd DevOps-Engineer-Candidate-Exercise/Monitoring
+
+2. **Apply the Terraform code:**
+   ```bash
+   terraform init
+   terraform plan
+   terraform apply
 
 
 
