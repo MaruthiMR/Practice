@@ -16,7 +16,7 @@ This repository contains Terraform code to provision an **EC2 instance** on AWS,
 ## Overview
 This project uses **Terraform** to spin up an **EC2 instance** with the following features:
 - A **security group** that allows **HTTP (port 80)** and **SSH (port 22)** traffic.
-- An **Apache web server** serving a "Hello, World!" page.
+- An **Apache web server** serving a "Hello Elsevier" page.
 - **CloudWatch monitoring** for **CPU** utilization and **memory** (using CloudWatch Agent).
 
 ## Prerequisites
@@ -26,7 +26,7 @@ Before proceeding with the setup, make sure you have the following:
    - Install Terraform: [Terraform Installation Guide](https://learn.hashicorp.com/tutorials/terraform/install-cli).
 3. **AWS CLI** installed and configured with your AWS credentials.
    - Configure AWS CLI: [AWS CLI Configuration](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html).
-4. **SSH Key Pair** for EC2 access (you can create one from the AWS Console if you don't have one).
+
 
 ## Setup Instructions
 
