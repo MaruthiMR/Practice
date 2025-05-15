@@ -89,7 +89,7 @@ Before proceeding with the setup, make sure you have the following:
 
 11. Go to the CloudWatch Console.
 
-Choose EC2 to see the metrics like CPU utilization and Memory utilization.
+Choose EC2 to see the metrics like CPU utilization utilization(it will show the some basic metrics, for adanvace metric cllection we have to deploy the cloudwatchagent to our EC2).
 
 ![Web Server Screenshot](3.png)
 
