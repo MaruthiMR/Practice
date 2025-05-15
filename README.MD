@@ -129,6 +129,8 @@ Run the following command to destroy the infrastructure:
    terraform plan
    terraform apply
 
+![Web Server Screenshot](3.png)
+
 
 
 
