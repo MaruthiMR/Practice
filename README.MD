@@ -89,7 +89,7 @@ Before proceeding with the setup, make sure you have the following:
 
 11. Go to the CloudWatch Console.
 
-Choose EC2 to see the metrics like CPU utilization utilization(it will show the some basic metrics, for adanvace metric cllection we have to deploy the cloudwatchagent to our EC2).
+Choose EC2 to see the metrics like CPU utilization utilization (it will show the some basic metrics, for adanvace metric cllection we have to deploy the cloudwatchagent to our EC2).
 
 ![Web Server Screenshot](3.png)
 
@@ -106,6 +106,23 @@ Run the following command to destroy the infrastructure:
 
 
 ![Web Server Screenshot](3.png)
+
+13. For more metric collection need to depoly cloudwatch agent 
+
+### Features
+
+- ✅ CloudWatch Agent installation via Terraform
+- 📊 Advanced system-level metrics (CPU, memory, disk, network)
+- 🔄 Configurable through `cloudwatch-agent-config.json`
+- 🔧 Easily extendable for logs and custom metrics
+
+### How to Use
+
+1. **Navigate to the project directory:**
+
+   ```bash
+   cd your-terraform-project
+
 
 
 
